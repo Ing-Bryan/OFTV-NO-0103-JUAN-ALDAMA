@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Información del sitio -->
+    <meta name="description" content="Sitio oficial de la Telesecundaria OFTV No. 0103 'Juan Aldama' en San Francisco Zentlalpan, Amecameca, Estado de México.">
+    <meta name="keywords" content="telesecundaria, Juan Aldama, OFTV 0103, Amecameca, escuela, educación">
+
+    <title>Telesecundaria OFTV No. 0103 "Juan Aldama"</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Logo de la escuela -->
+    <div class="top">
+        <img src="assets/logo_transparent.jpeg" alt="Logo de la escuela">
+    </div>
+
+    <!-- Menú lateral -->
+    <nav id="sidebar" class="sidebar">
+        <a href="index.html">Inicio</a>
+        <a href="acerca.html">Acerca de la Telesecundaria</a>
+        <a href="oferta.html">Oferta Educativa</a>
+        <a href="noticias.html">Noticias y Avisos</a>
+        <a href="politicas.html">Políticas y reglamentos</a>
+        <a href="galeria.html">Imagenes de la escuela</a>
+        <a href="docentes.html">Plantilla docente</a>
+    </nav>
+
+    <!-- Encabezado -->
+    <header>
+        <div class="row">
+            <button class="btn" onclick="toggleMenu()">☰</button>
+            <div class="title">
+                <h1>OFTV NO 0103 "JUAN ALDAMA"</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección principal -->
+    <section class="hero">
+        <div class="hero-card">
+
+            <h2>Bienvenido a la Telesecundaria "Juan Aldama"</h2>
+
+            <p><strong>C.C.T.:</strong> 15ETV0169B</p>
+            <p><strong>Turno:</strong> Matutino</p>
+
+            <!-- Buscador -->
+            <div class="search">
+                <input id="buscar" type="text" 
+                placeholder="Buscar información del sitio...">
+                <button onclick="buscar()">Buscar</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <h2>Comunidad Escolar</h2>
+        <p>Portal institucional para alumnos, docentes y familias.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

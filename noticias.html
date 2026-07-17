@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Noticias y Avisos | OFTV No. 0103 Juan Aldama</title>
+
+<meta name="description" content="Noticias y eventos escolares">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="top">
+  <img src="assets/logo_transparent.jpeg" alt="Logo escuela">
+</div>
+
+<header>
+  <div class="row">
+    <button class="btn" onclick="toggleMenu()">☰</button>
+    <div class="title">OFTV NO 0103 "JUAN ALDAMA"</div>
+  </div>
+</header>
+
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <a href="index.html">Inicio</a>
+  <a href="acerca.html">Acerca de la telesecundaria</a>
+  <a href="oferta.html">Oferta educativa</a>
+  <a href="noticias.html">Noticias y avisos</a>
+  <a href="politicas.html">Políticas y reglamentos</a>
+  <a href="galeria.html">Imagenes de la escuela</a>
+  <a href="docentes.html">Plantilla docente</a>
+</div>
+
+<!-- HERO -->
+<section class="news-section">
+  <div class="news-card">
+
+    <h1>Noticias y Eventos</h1>
+    <p>Información actualizada de la comunidad escolar</p>
+
+    <div class="news-tabs">
+      <button onclick="filtrar('todas')">Todas</button>
+      <button onclick="filtrar('noticia')">Noticias</button>
+      <button onclick="filtrar('evento')">Eventos</button>
+    </div>
+
+    <div id="news-container" class="news-grid"></div>
+
+  </div>
+</section>
+<footer>
+  <h2>OFTV NO0103 "JUAN ALDAMA"</h2>
+  <p>La mayor felicidad y satisfacción de trabajo en el ámbito educativo,
+        es transformar con el conocimiento y el corazón el pensamiento y la conducta de nuestros alumnos.
+    </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
